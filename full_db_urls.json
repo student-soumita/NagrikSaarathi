@@ -1,0 +1,812 @@
+{
+  "schemes": [
+    {
+      "id": 1,
+      "slug": "demo-scholarship-application",
+      "display_name": "राष्ट्रीय छात्रवृत्ति कार्यक्रम (National Scholarship Programme)",
+      "state_code": null,
+      "official_source_url": "https://scholarships.gov.in",
+      "official_application_url": "https://scholarships.gov.in/freshApplication",
+      "source_document_reference": "MHRD/HE/SCH/2026/SYNTHETIC-DEMO",
+      "verification_source_reference": "National Public Services Sandbox (Fictional Scheme for Guided Self-Application)",
+      "is_candidate": false,
+      "is_demo": true
+    },
+    {
+      "id": 2,
+      "slug": "pm-kisan",
+      "display_name": "PM-KISAN Samman Nidhi (पीएम-किसान सम्मान निधि)",
+      "state_code": null,
+      "official_source_url": "https://pmkisan.gov.in/",
+      "official_application_url": "https://pmkisan.gov.in/RegistrationFormNew.aspx",
+      "source_document_reference": "PM-KISAN Operational Guidelines Revised 2024",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 3,
+      "slug": "pmjay-ayushman-bharat",
+      "display_name": "Ayushman Bharat - PM-JAY (आयुष्मान भारत PM-JAY)",
+      "state_code": null,
+      "official_source_url": "https://pmjay.gov.in/",
+      "official_application_url": "https://setu.pmjay.gov.in/",
+      "source_document_reference": "NHA PM-JAY Guidelines 2024",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 4,
+      "slug": "pmay-gramin",
+      "display_name": "PMAY-G Housing Scheme (प्रधानमंत्री आवास योजना - ग्रामीण)",
+      "state_code": null,
+      "official_source_url": "https://pmayg.nic.in/",
+      "official_application_url": "https://pmayg.nic.in/netiay/AwaasSoft.aspx",
+      "source_document_reference": "MoRD PMAY-G Framework for Implementation 2024",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 5,
+      "slug": "kanyashree-prakalpa-wb",
+      "display_name": "Kanyashree Prakalpa (কন্যাশ্রী প্রকল্প)",
+      "state_code": "WB",
+      "official_source_url": "https://www.wbkanyashree.gov.in/",
+      "official_application_url": "https://www.wbkanyashree.gov.in/kp_4.0/index.php",
+      "source_document_reference": "Government of West Bengal Kanyashree Prakalpa Guidelines",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 6,
+      "slug": "mksy-uttar-pradesh",
+      "display_name": "Mukhya Mantri Kanya Sumangala Yojana (कन्या सुमंगला योजना - UP)",
+      "state_code": "UP",
+      "official_source_url": "https://mksy.up.gov.in/",
+      "official_application_url": "https://mksy.up.gov.in/women_welfare/citizen/citizen_registration.php",
+      "source_document_reference": "UP Mahila Kalyan Department Guidelines 2024",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 7,
+      "slug": "delhi-ladli-scheme",
+      "display_name": "Delhi Ladli Scheme (दिल्ली लाडली योजना)",
+      "state_code": "DL",
+      "official_source_url": "https://ladlierp.delhi.gov.in/",
+      "official_application_url": "https://edistrict.delhigovt.nic.in/",
+      "source_document_reference": "GNCTD WCD Ladli Scheme Notification",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 8,
+      "slug": "pm-svanidhi",
+      "display_name": "PM SVANidhi Scheme (पीएम स्वनिधि योजना)",
+      "state_code": null,
+      "official_source_url": "https://pmsvanidhi.mohua.gov.in/",
+      "official_application_url": "https://pmsvanidhi.mohua.gov.in/Home/Vendor_Registration",
+      "source_document_reference": "MoHUA PM SVANidhi Guidelines 2024",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 9,
+      "slug": "nsap-ignoaps-pension",
+      "display_name": "National Old Age Pension Scheme (IGNOAPS - वृद्धावस्था पेंशन)",
+      "state_code": null,
+      "official_source_url": "https://nsap.nic.in/",
+      "official_application_url": "https://nsap.nic.in/applyOnline.do",
+      "source_document_reference": "MoRD NSAP Guidelines Revised",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 10,
+      "slug": "nsp-post-matric-scholarship",
+      "display_name": "NSP Post Matric Scholarship (पोस्ट मैट्रिक छात्रवृत्ति)",
+      "state_code": null,
+      "official_source_url": "https://scholarships.gov.in/",
+      "official_application_url": "https://scholarships.gov.in/fresh/newstdRegfrmInstruction",
+      "source_document_reference": "NSP Student Guidelines Academic Year 2024-25",
+      "verification_source_reference": "Verified from official department portal guidelines",
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 11,
+      "slug": "cand-a34f26fe-gram-panchayat-cattle-shed-subsidy",
+      "display_name": "Gram Panchayat Cattle Shed Subsidy",
+      "state_code": "RJ",
+      "official_source_url": "https://rural.nic.in/schemes/cattle-shed",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": "Noticed on block notice board, please provide guidance form.",
+      "is_candidate": true,
+      "is_demo": false
+    },
+    {
+      "id": 12,
+      "slug": "cand-5c6727bd-annapurna-yojana",
+      "display_name": "Annapurna Yojana",
+      "state_code": "WB",
+      "official_source_url": "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": "Submitted by citizen via NagrikSaarathi candidate portal",
+      "is_candidate": true,
+      "is_demo": false
+    },
+    {
+      "id": 13,
+      "slug": "sukanya-samriddhi-yojana",
+      "display_name": "Sukanya Samriddhi Yojana (सुकन्या समृद्धि योजना)",
+      "state_code": null,
+      "official_source_url": "https://www.indiapost.gov.in/Financial/pages/content/ssy.aspx",
+      "official_application_url": "https://www.indiapost.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 14,
+      "slug": "ap-ysr-rythu-bharosa",
+      "display_name": "YSR Rythu Bharosa (వైఎస్ఆర్ రైతు భరోసా - Andhra Pradesh)",
+      "state_code": "AP",
+      "official_source_url": "https://ysrrythubharosa.ap.gov.in/",
+      "official_application_url": "https://navasakam.ap.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 15,
+      "slug": "arunachal-swavalamban-yojana",
+      "display_name": "Deen Dayal Upadhyaya Swavalamban Yojana (Arunachal Pradesh)",
+      "state_code": "AR",
+      "official_source_url": "https://arunachalpradesh.gov.in/",
+      "official_application_url": "https://investarunachal.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 16,
+      "slug": "assam-orunodoi-scheme",
+      "display_name": "Orunodoi Scheme 3.0 (অৰুণোদয় আঁচনি - Assam)",
+      "state_code": "AS",
+      "official_source_url": "https://orunodoi.assam.gov.in/",
+      "official_application_url": "https://orunodoi.assam.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 17,
+      "slug": "bihar-kanya-utthan-yojana",
+      "display_name": "Mukhyamantri Kanya Utthan Yojana (मुख्यमंत्री कन्या उत्थान योजना - Bihar)",
+      "state_code": "BR",
+      "official_source_url": "https://medhasoft.bih.nic.in/",
+      "official_application_url": "https://medhasoft.bih.nic.in/medhamat2024/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 18,
+      "slug": "chhattisgarh-kisan-nyay-yojana",
+      "display_name": "Rajiv Gandhi Kisan Nyay Yojana (किसान न्याय योजना - Chhattisgarh)",
+      "state_code": "CG",
+      "official_source_url": "https://kisan.cg.nic.in/",
+      "official_application_url": "https://kisan.cg.nic.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 19,
+      "slug": "goa-dayanand-social-security",
+      "display_name": "Dayanand Social Security Scheme (DSSS - Goa)",
+      "state_code": "GA",
+      "official_source_url": "https://socialwelfare.goa.gov.in/",
+      "official_application_url": "https://goaonline.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 20,
+      "slug": "gujarat-mukhyamantri-kisan-sahay",
+      "display_name": "Mukhyamantri Kisan Sahay Yojana (મુખ્યમંત્રી કિસાન સહાય - Gujarat)",
+      "state_code": "GJ",
+      "official_source_url": "https://ikhedut.gujarat.gov.in/",
+      "official_application_url": "https://ikhedut.gujarat.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 21,
+      "slug": "haryana-chirayu-scheme",
+      "display_name": "Chirayu Haryana Ayushman Scheme (चिरायु हरियाणा योजना)",
+      "state_code": "HR",
+      "official_source_url": "https://chirayuayushmanharyana.in/",
+      "official_application_url": "https://meraparivar.haryana.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 22,
+      "slug": "himachal-mukhyamantri-swavalamban",
+      "display_name": "Mukhya Mantri Swavalamban Yojana (हिमाचल स्वावलंबन योजना)",
+      "state_code": "HP",
+      "official_source_url": "https://himachal.nic.in/",
+      "official_application_url": "https://mmsy.hp.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 23,
+      "slug": "jharkhand-abua-awas-yojana",
+      "display_name": "Abua Awas Yojana (अबुआ आवास योजना - Jharkhand)",
+      "state_code": "JH",
+      "official_source_url": "https://aay.jharkhand.gov.in/",
+      "official_application_url": "https://aay.jharkhand.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 24,
+      "slug": "karnataka-gruha-lakshmi",
+      "display_name": "Gruha Lakshmi Scheme (ಗೃಹ ಲಕ್ಷ್ಮಿ ಯೋಜನೆ - Karnataka)",
+      "state_code": "KA",
+      "official_source_url": "https://sevasindhu.karnataka.gov.in/",
+      "official_application_url": "https://sevasindhugs.karnataka.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 25,
+      "slug": "kerala-kasp-health-scheme",
+      "display_name": "Karunya Arogya Suraksha Padhathi (KASP - കേരളം)",
+      "state_code": "KL",
+      "official_source_url": "https://sha.kerala.gov.in/",
+      "official_application_url": "https://sha.kerala.gov.in/kasp/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 26,
+      "slug": "mp-ladli-behna-yojana",
+      "display_name": "Mukhyamantri Ladli Behna Yojana (लाड़ली बहना योजना - MP)",
+      "state_code": "MP",
+      "official_source_url": "https://cmladlibahna.mp.gov.in/",
+      "official_application_url": "https://cmladlibahna.mp.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 27,
+      "slug": "maharashtra-majhi-ladki-bahin",
+      "display_name": "Mukhyamantri Majhi Ladki Bahin Yojana (माझी लाडकी बहीण - Maharashtra)",
+      "state_code": "MH",
+      "official_source_url": "https://ladakibahin.maharashtra.gov.in/",
+      "official_application_url": "https://ladakibahin.maharashtra.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 28,
+      "slug": "manipur-cmht-health-scheme",
+      "display_name": "Chief Minister-gi Hakshelgi Tengbang (CMHT - Manipur)",
+      "state_code": "MN",
+      "official_source_url": "https://cmhtmanipur.gov.in/",
+      "official_application_url": "https://cmhtmanipur.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 29,
+      "slug": "meghalaya-focus-scheme",
+      "display_name": "FOCUS Farmers Collectivization Scheme (Meghalaya)",
+      "state_code": "ML",
+      "official_source_url": "https://focusmeghalaya.org/",
+      "official_application_url": "https://focusmeghalaya.org/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 30,
+      "slug": "mizoram-sedp-initiative",
+      "display_name": "Socio-Economic Development Policy (SEDP - Mizoram)",
+      "state_code": "MZ",
+      "official_source_url": "https://sedp.mizoram.gov.in/",
+      "official_application_url": "https://sedp.mizoram.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 31,
+      "slug": "nagaland-cmmfi-scheme",
+      "display_name": "Chief Minister Micro Finance Initiative (CMMFI - Nagaland)",
+      "state_code": "NL",
+      "official_source_url": "https://cmmfi.nagaland.gov.in/",
+      "official_application_url": "https://cmmfi.nagaland.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 32,
+      "slug": "odisha-biju-swasthya-kalyan",
+      "display_name": "Biju Swasthya Kalyan Yojana (BSKY - ଓଡ଼ିଶା)",
+      "state_code": "OD",
+      "official_source_url": "https://bsky.odisha.gov.in/",
+      "official_application_url": "https://bsky.odisha.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 33,
+      "slug": "punjab-mukh-mantri-sehat-bima",
+      "display_name": "Mukh Mantri Sehat Bima Yojana (ਸਿਹਤ ਬੀਮਾ ਯੋਜਨਾ - Punjab)",
+      "state_code": "PB",
+      "official_source_url": "https://sha.punjab.gov.in/",
+      "official_application_url": "https://sha.punjab.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 34,
+      "slug": "rajasthan-chiranjeevi-swasthya",
+      "display_name": "Mukhyamantri Chiranjeevi Swasthya Bima (चिरंजीवी योजना - Rajasthan)",
+      "state_code": "RJ",
+      "official_source_url": "https://chiranjeevi.rajasthan.gov.in/",
+      "official_application_url": "https://janaadhaar.rajasthan.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 35,
+      "slug": "sikkim-aama-yojana",
+      "display_name": "Aama Yojana Scheme (आमा योजना - Sikkim)",
+      "state_code": "SK",
+      "official_source_url": "https://sikkim.gov.in/",
+      "official_application_url": "https://sikkim.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 36,
+      "slug": "kmut-tamil-nadu",
+      "display_name": "Kalaignar Magalir Urimai Thittam (கலைஞர் மகளிர் உரிமைத் திட்டம் - Tamil Nadu)",
+      "state_code": "TN",
+      "official_source_url": "https://kmut.tn.gov.in/",
+      "official_application_url": "https://kmut.tn.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 37,
+      "slug": "telangana-rythu-bandhu",
+      "display_name": "Rythu Bandhu / Rythu Bharosa (రైతు బంధు - Telangana)",
+      "state_code": "TG",
+      "official_source_url": "https://rythubandhu.telangana.gov.in/",
+      "official_application_url": "https://dharani.telangana.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 38,
+      "slug": "tripura-matru-pushti-uphaar",
+      "display_name": "Mukhyamantri Matru Pushti Uphaar (মাতৃ পুষ্টি উপহার - Tripura)",
+      "state_code": "TR",
+      "official_source_url": "https://tripura.gov.in/",
+      "official_application_url": "https://tripura.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 39,
+      "slug": "uttarakhand-aanchal-amrit",
+      "display_name": "Mukhyamantri Aanchal Amrit Yojana (आंचल अमृत योजना - Uttarakhand)",
+      "state_code": "UK",
+      "official_source_url": "https://wecd.uk.gov.in/",
+      "official_application_url": "https://wecd.uk.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 40,
+      "slug": "andaman-fishermen-welfare",
+      "display_name": "Andaman & Nicobar Marine Fishermen Assistance Scheme",
+      "state_code": "AN",
+      "official_source_url": "https://fisheries.andaman.gov.in/",
+      "official_application_url": "https://edistrict.andaman.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 41,
+      "slug": "chandigarh-social-security-pension",
+      "display_name": "Chandigarh Social Security Pension Scheme",
+      "state_code": "CH",
+      "official_source_url": "https://chdsw.gov.in/",
+      "official_application_url": "https://admser.chd.nic.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 42,
+      "slug": "dnhdd-tribal-assistance",
+      "display_name": "DNHDD Tribal Livelihood and Agriculture Assistance",
+      "state_code": "DH",
+      "official_source_url": "https://ddd.gov.in/",
+      "official_application_url": "https://ddd.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 43,
+      "slug": "jk-sehat-scheme",
+      "display_name": "AB-PMJAY SEHAT Scheme (صحت اسکیم - Jammu & Kashmir)",
+      "state_code": "JK",
+      "official_source_url": "https://sehat.jk.gov.in/",
+      "official_application_url": "https://sehat.jk.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 44,
+      "slug": "ladakh-pashmina-promot-scheme",
+      "display_name": "Ladakh Pashmina Pastoralist Livelihood Scheme",
+      "state_code": "LA",
+      "official_source_url": "https://ladakh.gov.in/",
+      "official_application_url": "https://ladakh.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 45,
+      "slug": "lakshadweep-tuna-fishermen",
+      "display_name": "Lakshadweep Island Tuna Fishermen Support Scheme",
+      "state_code": "LD",
+      "official_source_url": "https://lakshadweep.gov.in/",
+      "official_application_url": "https://lakshadweep.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 46,
+      "slug": "puducherry-women-financial-aid",
+      "display_name": "Puducherry Magalir Monthly Financial Assistance Scheme",
+      "state_code": "PY",
+      "official_source_url": "https://wcd.py.gov.in/",
+      "official_application_url": "https://edistrict.py.gov.in/",
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 47,
+      "slug": "cand-908028a9-gram-panchayat-cattle-shed-subsidy",
+      "display_name": "Gram Panchayat Cattle Shed Subsidy",
+      "state_code": "RJ",
+      "official_source_url": "https://rural.nic.in/schemes/cattle-shed",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": "Noticed on block notice board, please provide guidance form.",
+      "is_candidate": true,
+      "is_demo": false
+    },
+    {
+      "id": 48,
+      "slug": "goa-solar-rooftop-sub",
+      "display_name": "Goa Solar Rooftop Subsidy",
+      "state_code": "GA",
+      "official_source_url": "https://goa.gov.in/solar",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    },
+    {
+      "id": 49,
+      "slug": "cand-b8398358-gram-panchayat-cattle-shed-subsidy",
+      "display_name": "Gram Panchayat Cattle Shed Subsidy",
+      "state_code": "RJ",
+      "official_source_url": "https://rural.nic.in/schemes/cattle-shed",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": "Noticed on block notice board, please provide guidance form.",
+      "is_candidate": true,
+      "is_demo": false
+    },
+    {
+      "id": 50,
+      "slug": "cand-725ae723-gram-panchayat-cattle-shed-subsidy",
+      "display_name": "Gram Panchayat Cattle Shed Subsidy",
+      "state_code": "RJ",
+      "official_source_url": "https://rural.nic.in/schemes/cattle-shed",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": "Noticed on block notice board, please provide guidance form.",
+      "is_candidate": true,
+      "is_demo": false
+    },
+    {
+      "id": 51,
+      "slug": "extracted-1b93b05e-rural-artisan-solar-tool-kit",
+      "display_name": "Rural Artisan Solar Tool Kit",
+      "state_code": "OD",
+      "official_source_url": "",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": "Machine-extracted draft schema from uploaded form text",
+      "is_candidate": true,
+      "is_demo": false
+    },
+    {
+      "id": 52,
+      "slug": "goa-solar-rooftop-sub-fa0824",
+      "display_name": "Goa Solar Rooftop Subsidy fa0824",
+      "state_code": "GA",
+      "official_source_url": "https://goa.gov.in/solar",
+      "official_application_url": null,
+      "source_document_reference": null,
+      "verification_source_reference": null,
+      "is_candidate": false,
+      "is_demo": false
+    }
+  ],
+  "doc_requirements": [
+    {
+      "id": 1,
+      "scheme_id": 1,
+      "document_code": "income_certificate",
+      "url": "https://scholarships.gov.in/guidelines/income_cert"
+    },
+    {
+      "id": 2,
+      "scheme_id": 1,
+      "document_code": "institution_enrollment_letter",
+      "url": "https://scholarships.gov.in/guidelines/bonafide_letter"
+    },
+    {
+      "id": 3,
+      "scheme_id": 1,
+      "document_code": "caste_category_certificate",
+      "url": "https://scholarships.gov.in/guidelines/caste_cert"
+    },
+    {
+      "id": 4,
+      "scheme_id": 1,
+      "document_code": "bank_account_passbook",
+      "url": "https://scholarships.gov.in/guidelines/dbt_bank"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "scheme_id": 1,
+      "step_key": "check_eligibility",
+      "url": "https://scholarships.gov.in/guidelines"
+    },
+    {
+      "id": 2,
+      "scheme_id": 1,
+      "step_key": "gather_documents",
+      "url": "https://scholarships.gov.in/checklist"
+    },
+    {
+      "id": 3,
+      "scheme_id": 1,
+      "step_key": "online_registration",
+      "url": "https://scholarships.gov.in/otr"
+    },
+    {
+      "id": 5,
+      "scheme_id": 1,
+      "step_key": "submit_and_record_acknowledgment",
+      "url": "https://scholarships.gov.in/login"
+    },
+    {
+      "id": 6,
+      "scheme_id": 2,
+      "step_key": "check_aadhaar",
+      "url": "https://pmkisan.gov.in/RegistrationFormNew.aspx"
+    },
+    {
+      "id": 7,
+      "scheme_id": 2,
+      "step_key": "enter_land_details",
+      "url": "https://pmkisan.gov.in/"
+    },
+    {
+      "id": 8,
+      "scheme_id": 2,
+      "step_key": "submit_declaration",
+      "url": "https://pmkisan.gov.in/"
+    },
+    {
+      "id": 9,
+      "scheme_id": 3,
+      "step_key": "check_am_i_eligible",
+      "url": "https://beneficiary.nha.gov.in/"
+    },
+    {
+      "id": 10,
+      "scheme_id": 3,
+      "step_key": "complete_ekyc",
+      "url": "https://setu.pmjay.gov.in/"
+    },
+    {
+      "id": 11,
+      "scheme_id": 3,
+      "step_key": "download_card",
+      "url": "https://beneficiary.nha.gov.in/"
+    },
+    {
+      "id": 12,
+      "scheme_id": 4,
+      "step_key": "verify_awaasplus_list",
+      "url": "https://pmayg.nic.in/"
+    },
+    {
+      "id": 13,
+      "scheme_id": 4,
+      "step_key": "geo_tagging",
+      "url": "https://pmayg.nic.in/"
+    },
+    {
+      "id": 14,
+      "scheme_id": 4,
+      "step_key": "disbursement_tracking",
+      "url": "https://pmayg.nic.in/"
+    },
+    {
+      "id": 15,
+      "scheme_id": 5,
+      "step_key": "school_form_issue",
+      "url": "https://www.wbkanyashree.gov.in/"
+    },
+    {
+      "id": 16,
+      "scheme_id": 5,
+      "step_key": "portal_upload_by_head",
+      "url": "https://www.wbkanyashree.gov.in/"
+    },
+    {
+      "id": 17,
+      "scheme_id": 5,
+      "step_key": "track_application_id",
+      "url": "https://www.wbkanyashree.gov.in/kp_4.0/track_application.php"
+    },
+    {
+      "id": 18,
+      "scheme_id": 6,
+      "step_key": "register_citizen_up",
+      "url": "https://mksy.up.gov.in/"
+    },
+    {
+      "id": 19,
+      "scheme_id": 6,
+      "step_key": "select_sumangala_category",
+      "url": "https://mksy.up.gov.in/"
+    },
+    {
+      "id": 20,
+      "scheme_id": 7,
+      "step_key": "edistrict_login",
+      "url": "https://edistrict.delhigovt.nic.in/"
+    },
+    {
+      "id": 21,
+      "scheme_id": 7,
+      "step_key": "submit_ladli_application",
+      "url": "https://edistrict.delhigovt.nic.in/"
+    },
+    {
+      "id": 22,
+      "scheme_id": 8,
+      "step_key": "check_vendor_status",
+      "url": "https://pmsvanidhi.mohua.gov.in/"
+    },
+    {
+      "id": 23,
+      "scheme_id": 8,
+      "step_key": "apply_loan_online",
+      "url": "https://pmsvanidhi.mohua.gov.in/"
+    },
+    {
+      "id": 24,
+      "scheme_id": 9,
+      "step_key": "nsap_citizen_form",
+      "url": "https://nsap.nic.in/applyOnline.do"
+    },
+    {
+      "id": 25,
+      "scheme_id": 9,
+      "step_key": "panchayat_verification",
+      "url": "https://nsap.nic.in/"
+    },
+    {
+      "id": 26,
+      "scheme_id": 10,
+      "step_key": "nsp_otr_registration",
+      "url": "https://scholarships.gov.in/"
+    },
+    {
+      "id": 27,
+      "scheme_id": 10,
+      "step_key": "apply_scheme",
+      "url": "https://scholarships.gov.in/"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nagarik-saarathi"
+version = "0.1.0"
+description = "NagrikSaarathi — Multilingual government-service assistance platform"
+requires-python = ">=3.10"
+dependencies = [
+    "sqlalchemy>=2.0,<3.0",
+    "alembic>=1.13,<2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0,<9.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests", "backend/app/tests"]
+pythonpath = ["."]
